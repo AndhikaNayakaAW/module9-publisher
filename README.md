@@ -22,6 +22,15 @@ Using the same URL in both publisher and subscriber ensures they connect to the 
 ### - Running RabbitMQ as message broker:
   ![alt text](img/pub1.png)
 
-### - Sending and processing event.
+### - Sending and processing event:
   ![alt text](img/pub2.png)
 
+### - Monitoring chart based on publisher:
+  ![alt text](img/pub3.png)
+
+### Monitoring the Publisher
+
+![Publisher Activity Chart](img/pub3.png)
+
+**What causes the purple spike in the Publish rate?**  
+- Whenever I run the publisher, it sends a burst of messages to RabbitMQ. That burst shows up as the purple peak in the chart, then returns to zero once all messages have been sent.
