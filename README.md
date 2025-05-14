@@ -21,3 +21,7 @@ Using the same URL in both publisher and subscriber ensures they connect to the 
 
 ### - Running RabbitMQ as message broker:
   ![alt text](img/pub1.png)
+
+### - Sending and processing event.
+  ![alt text](img/pub2.png)
+
