@@ -18,3 +18,6 @@ The exact byte size of each message depends on the length of those strings plus 
 - **Port:** `5672` (RabbitMQ’s default AMQP port)
 
 Using the same URL in both publisher and subscriber ensures they connect to the **same** RabbitMQ broker instance with the same credentials.
+
+### - Running RabbitMQ as message broker:
+  ![alt text](img/pub1.png)
